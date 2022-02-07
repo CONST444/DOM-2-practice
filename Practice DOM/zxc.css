@@ -1,0 +1,49 @@
+.register-block .invalid, .restore-block .invalid {
+	padding-left:22px;
+	line-height:24px;
+	color:#fa0c00;
+}
+.register-block .valid, .restore-block .valid {
+	padding-left:22px;
+	line-height:24px;
+		color:#3a7d34;
+}
+.hidden-error-block{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.register-block{
+	max-width: 350px;
+	margin: 0 auto;
+	background: #c2a9c8;
+	padding: 150px 40px;
+	border-radius: 228px;
+	position: relative;
+	top: 100px;
+}
+.login-button{
+	margin-bottom: 80px;
+	margin-left: 140px;
+	font-weight: bold;
+}
+
+.input-block input{
+	padding: 12px;
+	margin-bottom: 10px;
+  width: 90%;
+}
+.input-block button{
+	width:100%;
+	border:none;
+	background: #b1572f;
+	color:#fff;
+	padding: 12px;
+	border-radius: 6px;
+	transition: 0.5s;
+  cursor:pointer;
+}
+.input-block button:hover{
+	background: #fff;
+	color: #b1572f;
+}
